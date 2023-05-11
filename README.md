@@ -22,7 +22,13 @@ clipboardListener.on('change', () => {
 
 // To stop listening
 clipboardListener.stopListening();
+```
 
+# Build
+## Windows
+```
+cd platform
+dotnet build --configuration Release
 ```
 Motivation
 

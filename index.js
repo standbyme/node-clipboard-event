@@ -14,7 +14,7 @@ class ClipboardEventListener extends EventEmitter {
 
     const { platform } = process;
     if (platform === 'win32') {
-      this.child = execFile(path.join(__dirname,'platform/clipboard-event-handler-win32.exe'));
+      this.child = execFile(path.join(__dirname,'platform/bin/Release/net7.0-windows/platform.exe'));
     }
     else if (platform === 'linux') {
       this.child = execFile(path.join(__dirname,'platform/clipboard-event-handler-linux'));

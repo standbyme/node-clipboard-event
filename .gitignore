@@ -4,3 +4,5 @@ test.js
 test.cjs
 platform/build
 .DS_Store
+platform/bin
+platform/obj
